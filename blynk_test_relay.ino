@@ -3,19 +3,16 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-/*#define BLYNK_TEMPLATE_ID "TMPL3Dr93qE8M"
-#define BLYNK_TEMPLATE_NAME "led controll"
-#define BLYNK_AUTH_TOKEN "XqXgnT9bgFRf0Fe646biPujbWlZDIg-2"*/ 
 
-#define BLYNK_TEMPLATE_ID "TMPL3eAPkAUJx"
-#define BLYNK_TEMPLATE_NAME "home automation"
-#define BLYNK_AUTH_TOKEN "5JLTEPDzc9KLriJbFqYcpvkGh-I_xz5_"
+#define BLYNK_TEMPLATE_ID "----------"
+#define BLYNK_TEMPLATE_NAME "---------"
+#define BLYNK_AUTH_TOKEN "--------------------"
 
-char auth[] = "5JLTEPDzc9KLriJbFqYcpvkGh-I_xz5_";
+char auth[] = "------------------------";
 
 // Your WiFi credentials
-char ssid[] = "Abcd";
-char pass[] = "12345678";
+char ssid[] = "xxxxxxxxx"; //  your Wifi name
+char pass[] = "xxxxxxxxxx"; // your Wifi passward
 
 // GPIO pin connected to the relay
 #define RELAY_PIN 5  // GPIO5 (D1 on NodeMCU)
